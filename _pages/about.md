@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+======
 👨🏽‍💻 I'm a final year undergraduate student at HEC Montréal, majoring in business analytics.
 
 👨🏽‍💼 As a serial-case competitor, I've traveled around the world to represent my university and wish to bridge this business knowledge with concrete ML applications.
