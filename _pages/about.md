@@ -7,12 +7,12 @@ redirect_from:
   - /about.html
 ---
 
----
 👨🏽‍💻 I'm a final year undergraduate student at HEC Montréal, majoring in business analytics.
 
 👨🏽‍💼 As a serial case competitor, I've traveled around the world to represent my university on both the national and global stages. My goal is to integrate this business expertise with practical ML applications to solve real-word problems.
 
 🔬 My research interests focus on reinforcement learning and ANN development.
+
 ---
 
 Portfolio projects
