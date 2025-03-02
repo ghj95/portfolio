@@ -8,14 +8,18 @@ redirect_from:
 ---
 ---
 
+---
 👨🏽‍💻 I'm a final year undergraduate student at HEC Montréal, majoring in business analytics.
 
-👨🏽‍💼 As a serial business case competitor, I've traveled around the world to represent my university on the national and global stage. My goal is to integrate thi business expertise with practical ML applications.
+👨🏽‍💼 As a serial case competitor, I've traveled around the world to represent my university on both the national and global stages. My goal is to integrate this business expertise with practical ML applications to solve real-word problems.
 
 🔬 My research interests focus on reinforcement learning and ANN development.
+---
+---
 
 Portfolio projects
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+[Stock Portfolio Optimizer App](https://port-opt.streamlit.app) This project is designed to optimize stock portfolio allocations using modern portfolio theory and advanced risk assessment techniques. By implementing Monte Carlo simulations, the app estimates Value at Risk (VaR) and Conditional Value at Risk (CVaR) to enhance financial decision-making. It integrates the Yahoo Finance API and utilizes powerful data analysis libraries such as Pandas, NumPy, and Cvxp for in-depth analysis and visualization, providing users with a robust tool for portfolio management.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+[Iris Flower Classifier App](https://iris-class.streamlit.app) This machine learning application classifies iris flowers using a random forest model, offering a hands-on demonstration of predictive analytics. Built with Scikit-Learn, it includes features such as real-time probability scoring and dynamic parameter selection, making it an interactive and flexible tool. Developed with Streamlit, the app provides a user-friendly interface for exploring machine learning concepts in classification and model performance evaluation.
+
