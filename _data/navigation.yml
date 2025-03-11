@@ -6,10 +6,10 @@
 
 main:
   - title: "CV"
-    url: /files/Gabriel_Hardy_Joseph.pdf
+    url: /files/Gabriel_Hardy_Joseph.pdf{:target="_blank"}
         
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "Portfolio"
+  #   url: /portfolio/
 
   # - title: "Publications"
   #   url: /publications/
