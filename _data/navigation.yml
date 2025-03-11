@@ -6,7 +6,8 @@
 
 main:
   - title: "CV"
-    url: /files/Gabriel_Hardy_Joseph.pdf{:target="_blank"}
+    url: /files/Gabriel_Hardy_Joseph.pdf
+    target: "_blank"
         
   # - title: "Portfolio"
   #   url: /portfolio/
