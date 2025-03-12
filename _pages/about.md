@@ -18,7 +18,7 @@ redirect_from:
 
 # Portfolio projects
 
-## 🔗 [Flappy Bird Reinforcement Learning Agent](https://github.com/ghj95){:target="_blank"} 
+## 🔗 [Flappy Bird Reinforcement Learning Agent](https://github.com/ghj95/dqn_bird/blob/main/bird.ipynb){:target="_blank"} 
 This reinforcement learning project **trains an agent to play Flappy Bird** using **Deep Q-Learning**, demonstrating advanced reinforcement learning in action. Built with *Stable Baselines 3* and *OpenCV*, it features a **custom game environment** that connects directly to the game interface through screen capture and input simulation. The implementation includes tailored reward structures that incentivize pipe navigation and performance visualization with TensorBoard, allowing real-time monitoring of the agent's learning progress as it masters increasingly complex gameplay strategies through trial and error.
 
 ## 🔗 [Iris Flower Classifier App](https://github.com/ghj95/iris_app){:target="_blank"}
