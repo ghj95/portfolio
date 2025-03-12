@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Homepage"
+title                    : "Gabriel's Portfolio"
 title_separator          : "-"
 name                     : &name "Gabriel Hardy-Joseph"
 description              : &description "Triathlete with a passion for ML"
