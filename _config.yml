@@ -25,7 +25,7 @@ author:
   avatar           : "profile-pic.png"
   name             : "Gabriel Hardy-Joseph"
   pronouns         : # example: "she/her"  
-  bio              : "Triathlete with a passion for ML"
+  bio              : "Triathlete with a passion for RL"
   location         : "Montreal"
   employer         : "HEC Montréal"
   uri              : ./files/Gabriel_Hardy_Joseph.pdf
