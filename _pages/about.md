@@ -26,7 +26,9 @@ This reinforcement learning project **trains an agent to play Flappy Bird** usin
 This machine learning application **classifies iris flowers** using a **random forest model**, offering a hands-on demonstration of predictive analytics. Built with *Scikit-Learn*, it includes features such as real-time probability scoring and dynamic parameter selection, making it an interactive and flexible tool. Developed with *Streamlit*, the app provides a user-friendly interface for exploring machine learning concepts in classification and model performance evaluation.
 
 ## 🔗 [Frozen Lake Reinforcement Learning Agent](https://github.com/ghj95/frozen_lake_q/blob/main/lake.py){:target="_blank"}
-[![Gif Frozen Lake](./images/fl.gif){: .align-right width="300px"}](https://port-opt.streamlit.app){:target="_blank"} 
+<a href="https://github.com/ghj95/frozen_lake_q/blob/main/lake.py" target="_blank">
+  <img src="./images/fl.gif" alt="Gif Frozen Lake" width="300px" style="float: right; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);">
+</a>
 This AI project **implements Q-learning to solve the Frozen Lake environment** from **OpenAI Gymnasium**, demonstrating fundamental reinforcement learning principles. Built with *NumPy* and *Matplotlib*, it features a table-based approach where the agent learns optimal paths through a slippery grid to reach a goal while avoiding holes. The implementation includes **dynamic learning rate adjustment** and **epsilon-greedy exploration** that gradually shifts from exploration to exploitation. Performance metrics are tracked and visualized, showing the agent's improving success rate over time as it masters navigating this classic reinforcement learning challenge.
 
 ## 🔗 [Stock Portfolio Optimizer App](https://github.com/ghj95/port_opt){:target="_blank"} 
