@@ -28,7 +28,7 @@ author:
   bio              : "Triathlete with a passion for ML"
   location         : "Montreal"
   employer         : "HEC Montréal"
-  uri              : /files/Gabriel_Hardy_Joseph.pdf
+  uri              : ./files/Gabriel_Hardy_Joseph.pdf
   email            : "gabriel.hardy-joseph@outlook.com" 
 
   # Academic websites
