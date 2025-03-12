@@ -12,7 +12,7 @@ redirect_from:
 
 👨🏽‍💼 As a serial case competitor, I've traveled around the world to represent my university on both the national and global stages. My goal is to integrate this business expertise with practical ML applications to solve real-word problems.
 
-🔬 My current interests lie in applied reinforcement learning and sports analytics.
+🦾 My current interests lie in applied reinforcement learning and sports analytics.
 
 ---
 
