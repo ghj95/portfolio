@@ -13,7 +13,7 @@ title                    : "Gabriel's Portfolio"
 title_separator          : "-"
 name                     : &name "Gabriel Hardy-Joseph"
 description              : &description "Triathlete with a passion for ML"
-url                      : https://ghj95.github.io/portfolio/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://ghj95.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ghj95.github.io"
 
@@ -25,7 +25,7 @@ author:
   avatar           : "profile-pic.png"
   name             : "Gabriel Hardy-Joseph"
   pronouns         : # example: "she/her"  
-  bio              : "Triathlete with a passion for RL"
+  bio              : "Triathlete with a passion for ML"
   location         : "Montreal"
   employer         : "HEC Montréal"
   uri              : ./files/Gabriel_Hardy_Joseph.pdf
