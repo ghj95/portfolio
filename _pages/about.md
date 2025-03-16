@@ -16,19 +16,13 @@ redirect_from:
 
 ---
 
-# Portfolio projects
+# Projects
 
 ## 🔗 [Flappy Bird Reinforcement Learning Agent](https://github.com/ghj95/dqn_bird/blob/main/bird.ipynb){:target="_blank"} 
 
 This reinforcement learning project **trains an agent to play Flappy Bird** using **Deep Q-Learning**, demonstrating advanced reinforcement learning in action. Built with *Stable Baselines 3* and *OpenCV*, it features a **custom game environment** that connects directly to the game interface through screen capture and input simulation. The implementation includes tailored reward structures that incentivize pipe navigation and performance visualization with TensorBoard, allowing real-time monitoring of the agent's learning progress as it masters increasingly complex gameplay strategies through trial and error.
 
 ## 🔗 [Frozen Lake Reinforcement Learning Agent](https://ghj95.github.io/portfolio//posts/2025/03/lake-rl/){:target="_blank"}
-[![Blog Screen Shot](./images/blog_ss.png){: .align-right width="300px"}](https://ghj95.github.io/portfolio//posts/2025/03/lake-rl/){:target="_blank"}
-<!-- <a href="/images/blog_ss.png" target="_blank"><img src="https://imgur.com/a/1hXRQp7" alt="Gif Blog" width="300px" style="float: right; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);"> -->
-
-This AI project **implements Q-learning to solve the Frozen Lake environment** from **OpenAI Gymnasium**, demonstrating fundamental reinforcement learning principles. Built with *NumPy* and *Matplotlib*, it features a table-based approach where the agent learns optimal paths through a slippery grid to reach a goal while avoiding holes. The implementation includes **dynamic learning rate adjustment** and **epsilon-greedy exploration** that gradually shifts from exploration to exploitation. Performance metrics are tracked and visualized, showing the agent's improving success rate over time as it masters navigating this classic reinforcement learning challenge.
-
-## 🔗 [Iris Flower Classifier App](https://github.com/ghj95/iris_app){:target="_blank"}
 
 <style>
 .button-4 {
@@ -91,6 +85,26 @@ This AI project **implements Q-learning to solve the Frozen Lake environment** f
 
 <div style="position: relative; overflow: hidden; margin-bottom: 20px;">
   <div style="float: right; width: 300px; text-align: center; margin-left: 25px;">
+    <a href="https://ghj95.github.io/portfolio/posts/2025/03/blog-post-1/" target="_blank">
+      <img src="./images/blog_ss.png" alt="Illustration of Frozen Lake Blog" style="width: 100%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); margin-bottom: 15px;">
+    </a>
+    <a href="https://ghj95.github.io/portfolio/posts/2025/03/blog-post-1/" target="_blank" style="text-decoration: none;">
+      <button class="button-4" role="button">Read the blog</button>
+    </a>
+  </div>
+  
+  <div>
+      This project <strong>implements Q-learning to solve the Frozen Lake environment</strong> from <strong>OpenAI Gymnasium</strong>, demonstrating fundamental reinforcement learning principles. Built with <strong>NumPy</strong> and <em>Matplotlib</em>, it features a table-based approach where the agent learns optimal paths through a slippery grid to reach a goal while avoiding holes. The implementation includes <strong>dynamic learning rate adjustment</strong> and <strong>epsilon-greedy exploration</strong> that gradually shifts from exploration to exploitation. Performance metrics are tracked and visualized, showing the agent's improving success rate over time as it masters navigating this classic reinforcement learning challenge.
+  </div>
+</div>
+
+<!-- [![Blog Screen Shot](./images/blog_ss.png){: .align-right width="300px"}](https://ghj95.github.io/portfolio//posts/2025/03/lake-rl/){:target="_blank"} -->
+<!-- <a href="/images/blog_ss.png" target="_blank"><img src="https://imgur.com/a/1hXRQp7" alt="Gif Blog" width="300px" style="float: right; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);"> -->
+
+## 🔗 [Iris Flower Classifier App](https://github.com/ghj95/iris_app){:target="_blank"}
+
+<div style="position: relative; overflow: hidden; margin-bottom: 20px;">
+  <div style="float: right; width: 300px; text-align: center; margin-left: 25px;">
     <a href="https://iris-class.streamlit.app" target="_blank">
       <img src="./images/iris_app.png" alt="Illustration of Iris App" style="width: 100%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); margin-bottom: 15px;">
     </a>
@@ -100,7 +114,8 @@ This AI project **implements Q-learning to solve the Frozen Lake environment** f
   </div>
   
   <div>
-    This machine learning application <strong>classifies iris flowers</strong> using a <strong>random forest model</strong>, offering a hands-on demonstration of predictive analytics. Built with <em>Scikit-Learn</em>, it includes features such as real-time probability scoring and dynamic parameter selection, making it an interactive and flexible tool. </br>
+    This machine learning application <strong>classifies iris flowers</strong> using a <strong>random forest model</strong>, offering a hands-on demonstration of predictive analytics. Built with <em>Scikit-Learn</em>, it includes features such as real-time probability scoring and dynamic parameter selection, making it an interactive and flexible tool. 
+    <br><br>
     Developed with <strong>Streamlit</strong>, the app provides a user-friendly interface for exploring machine learning concepts in classification and model performance evaluation.
   </div>
 </div>
