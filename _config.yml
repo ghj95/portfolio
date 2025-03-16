@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : &name "Gabriel Hardy-Joseph"
 description              : &description "Triathlete with a passion for ML"
 url                      : https://ghj95.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/portfolio" # the subpath of your site, e.g. "/blog"
 repository               : "ghj95.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
