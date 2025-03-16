@@ -85,10 +85,10 @@ This reinforcement learning project **trains an agent to play Flappy Bird** usin
 
 <div style="position: relative; overflow: hidden; margin-bottom: 20px;">
   <div style="float: right; width: 300px; text-align: center; margin-left: 25px;">
-    <a href="https://ghj95.github.io/portfolio/posts/2025/03/blog-post-1/" target="_blank">
+    <a href="https://ghj95.github.io/portfolio/blog/2025/03/blog-post-1/" target="_blank">
       <img src="./images/blog_ss.png" alt="Illustration of Frozen Lake Blog" style="width: 100%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); margin-bottom: 15px;">
     </a>
-    <a href="https://ghj95.github.io/portfolio/posts/2025/03/blog-post-1/" target="_blank" style="text-decoration: none;">
+    <a href="https://ghj95.github.io/portfolio/blog/2025/03/blog-post-1/" target="_blank" style="text-decoration: none;">
       <button class="button-4" role="button">Read the blog</button>
     </a>
   </div>
