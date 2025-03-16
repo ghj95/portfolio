@@ -6,7 +6,7 @@
 
 main:
   - title: "Portfolio"
-    url: /portfolio/
+    url: /blog-posts/
   
   # - title: "CV"
   #   url: /files/Gabriel_Hardy_Joseph.pdf
