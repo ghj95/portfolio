@@ -38,5 +38,40 @@
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands",
-    "vendor/magnific-popup/magnific-popup"
-;
+    "vendor/magnific-popup/magnific-popup";
+
+/* Mobile responsive image centering (excluding profile picture) */
+@media only screen and (max-width: 767px) {
+  /* Target all images except the profile picture */
+  img:not(.author__avatar img):not(.author__image img) {
+    display: block !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 100% !important;
+  }
+  
+  /* Center figure elements but not author profile figures */
+  figure:not(.author__avatar):not(.author__image) {
+    display: block !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+  
+  figcaption:not(.author__avatar figcaption):not(.author__image figcaption) {
+    text-align: center !important;
+  }
+  
+  /* Handle floating containers with images */
+  div[style*="float: right"]:not(.author__avatar):not(.author__image),
+  div[style*="float: left"]:not(.author__avatar):not(.author__image) {
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+}
