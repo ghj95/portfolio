@@ -5,25 +5,25 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "Portfolio"
-    url: /blog-posts/
-
-  - title: "Portfolio"
+  - title: "Blog"
     url: /portfolio/
   
-  - title: "CV"
-    url: /files/Gabriel_Hardy_Joseph.pdf
-    target: "_blank"
+  # - title: "Portfolio"
+  #   url: /blog-posts/
+
+  # - title: "CV"
+  #   url: /files/Gabriel_Hardy_Joseph.pdf
+  #   target: "_blank"
         
 
-  - title: "Publications"
-    url: /publications/
+  # - title: "Publications"
+  #   url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  # - title: "Talks"
+  #   url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  # - title: "Teaching"
+  #   url: /teaching/    
     
-  - title: "Guide"
-    url: /markdown/
+  # - title: "Guide"
+  #   url: /markdown/

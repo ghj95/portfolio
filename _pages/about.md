@@ -19,6 +19,7 @@ redirect_from:
 # Portfolio projects
 
 ## 🔗 [Flappy Bird Reinforcement Learning Agent](https://github.com/ghj95/dqn_bird/blob/main/bird.ipynb){:target="_blank"} 
+
 This reinforcement learning project **trains an agent to play Flappy Bird** using **Deep Q-Learning**, demonstrating advanced reinforcement learning in action. Built with *Stable Baselines 3* and *OpenCV*, it features a **custom game environment** that connects directly to the game interface through screen capture and input simulation. The implementation includes tailored reward structures that incentivize pipe navigation and performance visualization with TensorBoard, allowing real-time monitoring of the agent's learning progress as it masters increasingly complex gameplay strategies through trial and error.
 
 ## 🔗 [Frozen Lake Reinforcement Learning Agent](https://ghj95.github.io/portfolio//posts/2025/03/lake-rl/){:target="_blank"}
@@ -28,25 +29,63 @@ This reinforcement learning project **trains an agent to play Flappy Bird** usin
 This AI project **implements Q-learning to solve the Frozen Lake environment** from **OpenAI Gymnasium**, demonstrating fundamental reinforcement learning principles. Built with *NumPy* and *Matplotlib*, it features a table-based approach where the agent learns optimal paths through a slippery grid to reach a goal while avoiding holes. The implementation includes **dynamic learning rate adjustment** and **epsilon-greedy exploration** that gradually shifts from exploration to exploitation. Performance metrics are tracked and visualized, showing the agent's improving success rate over time as it masters navigating this classic reinforcement learning challenge.
 
 ## 🔗 [Iris Flower Classifier App](https://github.com/ghj95/iris_app){:target="_blank"}
+
 <style>
-.button-11 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 6px 14px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+.button-4 {
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
   border-radius: 6px;
-  color: #3D3D3D;
-  background: #fff;
-  border: none;
-  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
 }
-.button-11:focus {
-  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
-  outline: 0;
+
+.button-4:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4:-webkit-details-marker {
+  display: none;
 }
 </style>
 
@@ -56,7 +95,7 @@ This AI project **implements Q-learning to solve the Frozen Lake environment** f
       <img src="./images/iris_app.png" alt="Illustration of Iris App" style="width: 100%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); margin-bottom: 15px;">
     </a>
     <a href="https://iris-class.streamlit.app" target="_blank" style="text-decoration: none;">
-      <button class="button-11" role="button">Try the app</button>
+      <button class="button-4" role="button">Try the app</button>
     </a>
   </div>
   
@@ -68,13 +107,14 @@ This AI project **implements Q-learning to solve the Frozen Lake environment** f
 <!-- [![Illustration of Iris App](./images/iris_app.png){: .align-right width="300px"}](https://iris-class.streamlit.app){:target="_blank"} -->
 
 ## 🔗 [Stock Portfolio Optimizer App](https://github.com/ghj95/port_opt){:target="_blank"} 
+
 <div style="position: relative; overflow: hidden; margin-bottom: 20px;">
   <div style="float: right; width: 300px; text-align: center; margin-left: 25px;">
     <a href="https://port-opt.streamlit.app" target="_blank">
-      <img src="./images/iris_app.png" alt="Illustration of Iris App" style="width: 100%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); margin-bottom: 15px;">
+      <img src="./images/portfolio.png" alt="Illustration of Iris App" style="width: 100%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); margin-bottom: 15px;">
     </a>
     <a href="https://port-opt.streamlit.app" target="_blank" style="text-decoration: none;">
-      <button class="button-11" role="button">Try the app</button>
+      <button class="button-4" role="button">Try the app</button>
     </a>
   </div>
   
@@ -82,5 +122,4 @@ This AI project **implements Q-learning to solve the Frozen Lake environment** f
     This project is designed to <strong>optimize stock portfolio allocations</strong> using <strong>modern portfolio theory</strong> and advanced risk assessment techniques. By implementing Monte Carlo simulations, the app estimates Value at Risk (VaR) and Conditional Value at Risk (CVaR) to enhance financial decision-making. It integrates the <em>Yahoo Finance API</em> and utilizes data analysis libraries such as <em>Pandas</em>, <em>NumPy</em>, and <em>Cvxp</em> for in-depth analysis and visualization.
   </div>
 </div>
-
-[![Illustration of Portfolio App](./images/portfolio.png){: .align-right width="300px"}](https://port-opt.streamlit.app){:target="_blank"}
+<!-- [![Illustration of Portfolio App](./images/portfolio.png){: .align-right width="300px"}](https://port-opt.streamlit.app){:target="_blank"} -->
