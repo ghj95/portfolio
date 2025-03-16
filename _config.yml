@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "dark"
+site_theme               : "default"
 title                    : "Gabriel's Portfolio"
 title_separator          : "-"
 name                     : &name "Gabriel Hardy-Joseph"
@@ -231,7 +231,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/blog-posts/"
       type: posts
     values:
       layout: single
