@@ -28,7 +28,15 @@ This reinforcement learning project **trains an agent to play Flappy Bird** usin
 This AI project **implements Q-learning to solve the Frozen Lake environment** from **OpenAI Gymnasium**, demonstrating fundamental reinforcement learning principles. Built with *NumPy* and *Matplotlib*, it features a table-based approach where the agent learns optimal paths through a slippery grid to reach a goal while avoiding holes. The implementation includes **dynamic learning rate adjustment** and **epsilon-greedy exploration** that gradually shifts from exploration to exploitation. Performance metrics are tracked and visualized, showing the agent's improving success rate over time as it masters navigating this classic reinforcement learning challenge.
 
 ## 🔗 [Iris Flower Classifier App](https://github.com/ghj95/iris_app){:target="_blank"}
-[![Illustration of Iris App](./images/iris_app.png){: .align-right width="300px"}](https://iris-class.streamlit.app){:target="_blank"}
+<div style="text-align: center;">
+  <a href="https://iris-class.streamlit.app" target="_blank">
+    <img src="./images/iris_app.png" alt="Illustration of Iris App" width="300px" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); margin-bottom: 15px;">
+    <div>
+      <button class="btn btn--primary">Try the App</button>
+    </div>
+  </a>
+</div>
+<!-- [![Illustration of Iris App](./images/iris_app.png){: .align-right width="300px"}](https://iris-class.streamlit.app){:target="_blank"} -->
 This machine learning application **classifies iris flowers** using a **random forest model**, offering a hands-on demonstration of predictive analytics. Built with *Scikit-Learn*, it includes features such as real-time probability scoring and dynamic parameter selection, making it an interactive and flexible tool. Developed with *Streamlit*, the app provides a user-friendly interface for exploring machine learning concepts in classification and model performance evaluation.
 
 ## 🔗 [Stock Portfolio Optimizer App](https://github.com/ghj95/port_opt){:target="_blank"} 
