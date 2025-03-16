@@ -18,11 +18,11 @@ redirect_from:
 
 # Projects
 
-## 🔗 [Flappy Bird Reinforcement Learning Agent](https://github.com/ghj95/dqn_bird/blob/main/bird.ipynb){:target="_blank"} 
+## [Flappy Bird Reinforcement Learning Agent](https://github.com/ghj95/dqn_bird/blob/main/bird.ipynb){:target="_blank"} 
 
 This reinforcement learning project **trains an agent to play Flappy Bird** using **Deep Q-Learning**, demonstrating advanced reinforcement learning in action. Built with *Stable Baselines 3* and *OpenCV*, it features a **custom game environment** that connects directly to the game interface through screen capture and input simulation. The implementation includes tailored reward structures that incentivize pipe navigation and performance visualization with TensorBoard, allowing real-time monitoring of the agent's learning progress as it masters increasingly complex gameplay strategies through trial and error.
 
-## 🔗 [Frozen Lake Reinforcement Learning Agent](https://ghj95.github.io/portfolio//posts/2025/03/lake-rl/){:target="_blank"}
+## [Frozen Lake Reinforcement Learning Agent](https://github.com/ghj95/frozen_lake_q){:target="_blank"}
 
 <style>
 .button-4 {
@@ -94,14 +94,14 @@ This reinforcement learning project **trains an agent to play Flappy Bird** usin
   </div>
   
   <div>
-      This project <strong>implements Q-learning to solve the Frozen Lake environment</strong> from <strong>OpenAI Gymnasium</strong>, demonstrating fundamental reinforcement learning principles. Built with <strong>NumPy</strong> and <em>Matplotlib</em>, it features a table-based approach where the agent learns optimal paths through a slippery grid to reach a goal while avoiding holes. The implementation includes <strong>dynamic learning rate adjustment</strong> and <strong>epsilon-greedy exploration</strong> that gradually shifts from exploration to exploitation. Performance metrics are tracked and visualized, showing the agent's improving success rate over time as it masters navigating this classic reinforcement learning challenge.
+      This project <strong>implements Q-learning to solve the Frozen Lake environment</strong> from <strong>OpenAI Gymnasium</strong>, demonstrating fundamental reinforcement learning principles. Built with <strong>NumPy</strong> and <em>Matplotlib</em>, it features a table-based approach where the agent learns optimal paths through a slippery grid to reach a goal while avoiding holes. The implementation includes <strong>dynamic learning rate adjustment</strong> and <strong>epsilon-greedy exploration</strong> that gradually shifts from exploration to exploitation.
   </div>
 </div>
 
 <!-- [![Blog Screen Shot](./images/blog_ss.png){: .align-right width="300px"}](https://ghj95.github.io/portfolio//posts/2025/03/lake-rl/){:target="_blank"} -->
 <!-- <a href="/images/blog_ss.png" target="_blank"><img src="https://imgur.com/a/1hXRQp7" alt="Gif Blog" width="300px" style="float: right; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);"> -->
 
-## 🔗 [Iris Flower Classifier App](https://github.com/ghj95/iris_app){:target="_blank"}
+## [Iris Flower Classifier App](https://github.com/ghj95/iris_app){:target="_blank"}
 
 <div style="position: relative; overflow: hidden; margin-bottom: 20px;">
   <div style="float: right; width: 300px; text-align: center; margin-left: 25px;">
@@ -121,7 +121,7 @@ This reinforcement learning project **trains an agent to play Flappy Bird** usin
 </div>
 <!-- [![Illustration of Iris App](./images/iris_app.png){: .align-right width="300px"}](https://iris-class.streamlit.app){:target="_blank"} -->
 
-## 🔗 [Stock Portfolio Optimizer App](https://github.com/ghj95/port_opt){:target="_blank"} 
+## [Stock Portfolio Optimizer App](https://github.com/ghj95/port_opt){:target="_blank"} 
 
 <div style="position: relative; overflow: hidden; margin-bottom: 20px;">
   <div style="float: right; width: 300px; text-align: center; margin-left: 25px;">
