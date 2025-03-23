@@ -81,7 +81,7 @@ redirect_from:
 
 <div style="position: relative; overflow: hidden; margin-bottom: 20px;">
   <div style="float: right; width: 300px; text-align: center; margin-left: 25px;">
-    <a href="https://iris-class.streamlit.app" target="_blank">
+    <a href="https://foot-forecast.streamlit.app" target="_blank">
       <img src="./images/pp_app.png" alt="Illustration of PremierPredict App" style="width: 100%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); margin-bottom: 15px;">
     </a>
     <a href="https://foot-forecast.streamlit.app" target="_blank" style="text-decoration: none;">
