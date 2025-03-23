@@ -92,6 +92,7 @@ redirect_from:
   <div>
     This machine learning project <strong>delivers predictions for Premier League football matches</strong>. Leveraging <strong>over 20 years of historical match data</strong>, it was developed using a comprehensive feature engineering pipeline that extracts meaningful patterns from <em>team performance metrics</em>, <em>historical matchups</em>, and recent <em>form indicators</em>. 
     <br><br>
+    <br><br>
     The core algorithm uses and a <strong>Random Forest classifier</strong> fine-tuned through rigorous hyperparameter optimization, achieving <strong>62% prediction accuracy</strong>. The model is usable within in an interactive web application built with <em>Streamlit</em> that allows users to select upcoming matches and receive real-time predictions based on current season data, demonstrating practical application of advanced data science techniques in sports analytics.
   </div>
 </div>
