@@ -91,7 +91,7 @@ redirect_from:
   
   <div>
     This machine learning web app <strong>delivers predictions for Premier League football matches</strong>. Leveraging <strong>25 years of historical match data</strong>, it was developed using a comprehensive feature engineering pipeline that extracts meaningful patterns from <em>team performance metrics</em>, <em>historical matchups</em>, and recent <em>form indicators</em>. 
-    The core algorithm uses <strong>Extreme Gradient Boosting (XGBoost)</strong> fine-tuned through  hyperparameter optimization, achieving <strong>62% prediction accuracy</strong>. Try it out!
+    The core algorithm uses <strong>Extreme Gradient Boosting (XGBoost)</strong> fine-tuned through  hyperparameter optimization, achieving <strong>48% prediction accuracy, 15% above average (baseline)</strong>. Try it out!
   </div>
 </div>
 
