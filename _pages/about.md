@@ -95,6 +95,24 @@ redirect_from:
   </div>
 </div>
 
+## [EquityLens: AI-Powered Financial News Analysis](https://github.com/ghj95/equity_lens){:target="_blank"}
+
+<div style="position: relative; overflow: hidden; margin-bottom: 20px;">
+  <div style="float: right; width: 300px; text-align: center; margin-left: 25px;">
+    <a href="https://equity-lens.streamlit.app" target="_blank">
+      <img src="./images/equitylens_app.png" alt="Illustration of EquityLens App" style="width: 100%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); margin-bottom: 15px;">
+    </a>
+    <a href="https://equity-lens.streamlit.app" target="_blank" style="text-decoration: none;">
+      <button class="button-4" role="button">Try the app</button>
+    </a>
+  </div>
+  
+  <div>
+    This financial research tool <strong>transforms unstructured news articles into actionable market insights</strong> for equity analysts. Built with <strong>LangChain and OpenAI's API</strong>, it implements a comprehensive <em>Retrieval-Augmented Generation (RAG)</em> pipeline that processes multiple news sources simultaneously. 
+    The system uses <strong>FAISS vector search</strong> for semantic document retrieval and employs advanced <em>prompt engineering techniques</em> to extract relevant quotes with precise source attribution. <strong>Streamlined for real-world financial workflows</strong>, it demonstrates practical applications of large language models in investment research.
+  </div>
+</div>
+
 ## [Frozen Lake Reinforcement Learning Agent](https://github.com/ghj95/frozen_lake_q){:target="_blank"}
 
 <div style="position: relative; overflow: hidden; margin-bottom: 20px;">
