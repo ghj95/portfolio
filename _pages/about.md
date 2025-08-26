@@ -109,7 +109,7 @@ redirect_from:
   
   <div>
     This financial research tool <strong>transforms unstructured news articles into actionable market insights</strong> for equity analysts. Built with <strong>LangChain and OpenAI's API</strong>, it implements a comprehensive <em>Retrieval-Augmented Generation (RAG)</em> pipeline that processes multiple news sources simultaneously. 
-    The system uses <strong>FAISS vector search</strong> for semantic document retrieval and employs advanced <em>prompt engineering techniques</em> to extract relevant quotes with precise source attribution. <strong>Streamlined for real-world financial workflows</strong>, it demonstrates practical applications of large language models in investment research.
+    The system uses <strong>FAISS vector search</strong> for semantic document retrieval and employs advanced <em>prompt engineering techniques</em> to extract relevant quotes with precise source attribution.
   </div>
 </div>
 
