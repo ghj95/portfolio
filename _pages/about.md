@@ -77,24 +77,6 @@ redirect_from:
 }
 </style>
 
-## [PremierPredict: Football Match Predictor App](https://github.com/ghj95/foot_forecast/blob/main/epl_predictor.ipynb){:target="_blank"}
-
-<div style="position: relative; overflow: hidden; margin-bottom: 20px;">
-  <div style="float: right; width: 300px; text-align: center; margin-left: 25px;">
-    <a href="https://foot-forecast.streamlit.app" target="_blank">
-      <img src="./images/pp_app.png" alt="Illustration of PremierPredict App" style="width: 100%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); margin-bottom: 15px;">
-    </a>
-    <a href="https://foot-forecast.streamlit.app" target="_blank" style="text-decoration: none;">
-      <button class="button-4" role="button">Try the app</button>
-    </a>
-  </div>
-  
-  <div>
-    This machine learning web app <strong>delivers predictions for Premier League football matches</strong>. Leveraging <strong>25 years of historical match data</strong>, it was developed using a comprehensive feature engineering pipeline that extracts meaningful patterns from <em>team performance metrics</em>, <em>historical matchups</em>, and recent <em>form indicators</em>. 
-    The core algorithm uses <strong>Extreme Gradient Boosting (XGBoost)</strong> fine-tuned through  hyperparameter optimization, achieving <strong>48% prediction accuracy, 15% above average (baseline)</strong>. Try it out!
-  </div>
-</div>
-
 ## [EquityLens: Serverless AI Financial News Analysis on AWS](https://github.com/ghj95/equity_lens_aws){:target="_blank"}
 
 <div style="position: relative; overflow: hidden; margin-bottom: 20px;">
@@ -115,6 +97,25 @@ redirect_from:
   The application is deployed on <strong>AWS serverless infrastructure</strong> using a fully automated CI/CD pipeline built with <strong>Terraform</strong>. When code changes are made locally, the system automatically packages the application, triggers <strong>AWS CodePipeline</strong> to build Docker containers via <strong>CodeBuild</strong>, stores images in <strong>Amazon ECR</strong>, and deploys to <strong>ECS Fargate</strong> clusters across availability zones. The entire application is globally distributed through <strong>CloudFront CDN</strong>, ensuring low-latency access while automatically scaling based on demand.
   </div>
 </div>
+
+## [PremierPredict: Football Match Predictor App](https://github.com/ghj95/foot_forecast/blob/main/epl_predictor.ipynb){:target="_blank"}
+
+<div style="position: relative; overflow: hidden; margin-bottom: 20px;">
+  <div style="float: right; width: 300px; text-align: center; margin-left: 25px;">
+    <a href="https://foot-forecast.streamlit.app" target="_blank">
+      <img src="./images/pp_app.png" alt="Illustration of PremierPredict App" style="width: 100%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); margin-bottom: 15px;">
+    </a>
+    <a href="https://foot-forecast.streamlit.app" target="_blank" style="text-decoration: none;">
+      <button class="button-4" role="button">Try the app</button>
+    </a>
+  </div>
+  
+  <div>
+    This machine learning web app <strong>delivers predictions for Premier League football matches</strong>. Leveraging <strong>25 years of historical match data</strong>, it was developed using a comprehensive feature engineering pipeline that extracts meaningful patterns from <em>team performance metrics</em>, <em>historical matchups</em>, and recent <em>form indicators</em>. 
+    The core algorithm uses <strong>Extreme Gradient Boosting (XGBoost)</strong> fine-tuned through  hyperparameter optimization, achieving <strong>48% prediction accuracy, 15% above average (baseline)</strong>. Try it out!
+  </div>
+</div>
+
 
 ## [Frozen Lake Reinforcement Learning Agent](https://github.com/ghj95/frozen_lake_q){:target="_blank"}
 
