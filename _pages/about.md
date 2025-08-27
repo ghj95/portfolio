@@ -95,21 +95,25 @@ redirect_from:
   </div>
 </div>
 
-## [EquityLens: AI-Powered Financial News Analysis](https://github.com/ghj95/equity_lens){:target="_blank"}
+## [EquityLens: Serverless AI Financial News Analysis on AWS](https://github.com/ghj95/equity_lens_aws){:target="_blank"}
 
 <div style="position: relative; overflow: hidden; margin-bottom: 20px;">
   <div style="float: right; width: 300px; text-align: center; margin-left: 25px;">
     <a href="https://equity-lens.streamlit.app" target="_blank">
       <img src="./images/equitylens_app.png" alt="Illustration of EquityLens App" style="width: 100%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); margin-bottom: 15px;">
     </a>
-    <a href="https://equity-lens.streamlit.app" target="_blank" style="text-decoration: none;">
+    <a href="https://dfn8hh50ps75m.cloudfront.net" target="_blank" style="text-decoration: none;">
       <button class="button-4" role="button">Try the app</button>
     </a>
   </div>
   
   <div>
-    This financial research tool <strong>transforms unstructured news articles into actionable market insights</strong> for equity analysts. Built with <strong>LangChain and OpenAI's API</strong>, it implements a comprehensive <em>Retrieval-Augmented Generation (RAG)</em> pipeline that processes multiple news sources simultaneously. 
-    The system uses <strong>FAISS vector search</strong> for semantic document retrieval and employs advanced <em>prompt engineering techniques</em> to extract relevant quotes with precise source attribution.
+  This financial research tool <strong>transforms unstructured news articles into actionable market insights</strong> for equity analysts. Built with <strong>LangChain and OpenAI's API</strong>, it implements a comprehensive <em>Retrieval-Augmented Generation (RAG)</em> pipeline that processes multiple news sources simultaneously. 
+  The system uses <strong>FAISS vector search</strong> for semantic document retrieval and employs advanced <em>prompt engineering techniques</em> to extract relevant quotes with precise source attribution.
+  </div>
+
+  <div style="margin-top: 15px;">
+  The application is deployed on <strong>AWS serverless infrastructure</strong> using a fully automated CI/CD pipeline built with <strong>Terraform</strong>. When code changes are made locally, the system automatically packages the application, triggers <strong>AWS CodePipeline</strong> to build Docker containers via <strong>CodeBuild</strong>, stores images in <strong>Amazon ECR</strong>, and deploys to <strong>ECS Fargate</strong> clusters across multiple availability zones. The entire application is globally distributed through <strong>CloudFront CDN</strong>, ensuring low-latency access while automatically scaling based on demand.
   </div>
 </div>
 
