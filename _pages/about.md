@@ -108,12 +108,11 @@ redirect_from:
   </div>
   
   <div>
-  This financial research tool <strong>transforms unstructured news articles into actionable market insights</strong> for equity analysts. Built with <strong>LangChain and OpenAI's API</strong>, it implements a comprehensive <em>Retrieval-Augmented Generation (RAG)</em> pipeline that processes multiple news sources simultaneously. 
-  The system uses <strong>FAISS vector search</strong> for semantic document retrieval and employs advanced <em>prompt engineering techniques</em> to extract relevant quotes with precise source attribution.
+  This financial research tool <strong>transforms unstructured news articles into market insights</strong> for equity analysts. Built with <strong>LangChain and OpenAI's API</strong>, it implements a <em>Retrieval-Augmented Generation (RAG)</em> pipeline that processes multiple news sources simultaneously. The system uses <strong>FAISS vector search</strong> for semantic document retrieval and employs prompt engineering to extract relevant quotes with source attribution.
   </div>
 
   <div style="margin-top: 15px;">
-  The application is deployed on <strong>AWS serverless infrastructure</strong> using a fully automated CI/CD pipeline built with <strong>Terraform</strong>. When code changes are made locally, the system automatically packages the application, triggers <strong>AWS CodePipeline</strong> to build Docker containers via <strong>CodeBuild</strong>, stores images in <strong>Amazon ECR</strong>, and deploys to <strong>ECS Fargate</strong> clusters across multiple availability zones. The entire application is globally distributed through <strong>CloudFront CDN</strong>, ensuring low-latency access while automatically scaling based on demand.
+  The application is deployed on <strong>AWS serverless infrastructure</strong> using a fully automated CI/CD pipeline built with <strong>Terraform</strong>. When code changes are made locally, the system automatically packages the application, triggers <strong>AWS CodePipeline</strong> to build Docker containers via <strong>CodeBuild</strong>, stores images in <strong>Amazon ECR</strong>, and deploys to <strong>ECS Fargate</strong> clusters across availability zones. The entire application is globally distributed through <strong>CloudFront CDN</strong>, ensuring low-latency access while automatically scaling based on demand.
   </div>
 </div>
 
