@@ -90,7 +90,7 @@ redirect_from:
   </div>
   
 <div>
-  This financial research tool <strong>transforms unstructured news articles into market insights</strong> for equity analysts. Built with <strong>LangChain</strong> and <strong>OpenAI's API</strong>, it implements a <em>Retrieval-Augmented Generation (RAG)</em> pipeline that ingests articles via <strong>newspaper3k</strong> and processes multiple news sources simultaneously. The system uses <strong>FAISS vector search</strong> for semantic document retrieval and employs prompt engineering to extract relevant quotes with source attribution.
+  This financial research tool <strong>transforms unstructured news articles into market insights</strong> for equity analysts. Built with <strong>LangChain</strong> and <strong>OpenAI's API</strong>, it implements a <em>Retrieval-Augmented Generation (RAG)</em> pipeline that ingests articles via <strong>Newspaper3k</strong> and processes multiple news sources simultaneously. The system uses <strong>FAISS vector search</strong> for semantic document retrieval and employs prompt engineering to extract relevant quotes with source attribution.
 </div>
 
   <div style="margin-top: 15px;">
