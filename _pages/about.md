@@ -130,7 +130,7 @@ redirect_from:
   </div>
   
   <div>
-      This project <strong>implements Q-learning to solve the Frozen Lake environment</strong> from <strong>OpenAI Gymnasium</strong>, illustrating core reinforcement learning principles. Using a table-based approach with <strong>NumPy<strong>, the agent learns optimal paths through a grid to reach the goal while avoiding holes. The implementation integrates a <strong>dynamic learning rate<strong> and an <strong>epsilon-greedy strategy<strong> that gradually shifts from exploration to exploitation, highlighting the contrast between deterministic and stochastic environments.
+    This project <strong>implements Q-learning to solve the Frozen Lake environment</strong> from <strong>OpenAI Gymnasium</strong>, illustrating core reinforcement learning principles. Using a table-based approach with <strong>NumPy<strong>, the agent learns optimal paths through a grid to reach the goal while avoiding holes. The implementation integrates a <strong>dynamic learning rate<strong> and an <strong>epsilon-greedy strategy<strong> that gradually shifts from exploration to exploitation, highlighting the contrast between deterministic and stochastic environments.
   </div>
 </div>
 
@@ -138,8 +138,6 @@ redirect_from:
   
   This reinforcement learning project **trains an agent to play Flappy Bird** using **Deep Q-Learning**, demonstrating advanced reinforcement learning in action. Built with *Stable Baselines 3* and *OpenCV*, it features a **custom game environment** that connects directly to the game interface through screen capture and input simulation. The implementation includes tailored reward structures that incentivize pipe navigation and performance visualization with TensorBoard, allowing real-time monitoring of the agent's learning progress as it masters increasingly complex gameplay strategies through trial and error.
 
-<!-- [![Blog Screen Shot](./images/blog_ss.png){: .align-right width="300px"}](https://ghj95.github.io/portfolio//posts/2025/03/lake-rl/){:target="_blank"} -->
-<!-- <a href="/images/blog_ss.png" target="_blank"><img src="https://imgur.com/a/1hXRQp7" alt="Gif Blog" width="300px" style="float: right; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);"> -->
 
 ## [Iris Flower Classifier App](https://github.com/ghj95/iris_app){:target="_blank"}
 
@@ -159,7 +157,7 @@ redirect_from:
     Developed with <em>Streamlit</em>, the app provides a user-friendly interface for exploring machine learning concepts in classification and model performance evaluation.
   </div>
 </div>
-<!-- [![Illustration of Iris App](./images/iris_app.png){: .align-right width="300px"}](https://iris-class.streamlit.app){:target="_blank"} -->
+
 
 ## [Stock Portfolio Optimizer App](https://github.com/ghj95/port_opt){:target="_blank"} 
 
@@ -177,4 +175,3 @@ redirect_from:
     This project is designed to <strong>optimize stock portfolio allocations</strong> using <strong>modern portfolio theory</strong> and advanced risk assessment techniques. By implementing Monte Carlo simulations, the app estimates Value at Risk (VaR) and Conditional Value at Risk (CVaR) to enhance financial decision-making. It integrates the <em>Yahoo Finance API</em> and utilizes data analysis libraries such as <em>Pandas</em>, <em>NumPy</em>, and <em>Cvxp</em> for in-depth analysis and visualization.
   </div>
 </div>
-<!-- [![Illustration of Portfolio App](./images/portfolio.png){: .align-right width="300px"}](https://port-opt.streamlit.app){:target="_blank"} -->
