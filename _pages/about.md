@@ -130,7 +130,7 @@ redirect_from:
   </div>
   
   <div>
-    This project <strong>implements Q-learning to solve the Frozen Lake environment</strong> from <strong>OpenAI Gymnasium</strong>, illustrating core reinforcement learning principles. Using a table-based approach with <strong>NumPy<strong>, the agent learns optimal paths through a grid to reach the goal while avoiding holes. The implementation integrates a <strong>dynamic learning rate<strong> and an <strong>epsilon-greedy strategy<strong> that gradually shifts from exploration to exploitation, highlighting the contrast between deterministic and stochastic environments.
+    This project <strong>implements Q-learning to solve the Frozen Lake environment</strong> from <strong>OpenAI Gymnasium</strong>, illustrating core reinforcement learning principles. Using a table-based approach with <strong>NumPy<s/trong>, the agent learns optimal paths through a grid to reach the goal while avoiding holes. The implementation integrates a <strong>dynamic learning rate</strong> and an <strong>epsilon-greedy strategy</strong> that gradually shifts from exploration to exploitation, highlighting the contrast between deterministic and stochastic environments.
   </div>
 </div>
 
