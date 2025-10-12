@@ -81,7 +81,7 @@ redirect_from:
 
 <div style="position: relative; overflow: hidden; margin-bottom: 20px;">
   <div style="float: right; width: 300px; text-align: center; margin-left: 25px;">
-    <a href="https://equity-lens.streamlit.app" target="_blank">
+    <a href="https://dfn8hh50ps75m.cloudfront.net" target="_blank">
       <img src="./images/equitylens_app.png" alt="Illustration of EquityLens App" style="width: 100%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); margin-bottom: 15px;">
     </a>
     <a href="https://dfn8hh50ps75m.cloudfront.net" target="_blank" style="text-decoration: none;">
