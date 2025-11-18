@@ -93,11 +93,6 @@ redirect_from:
   This financial research tool <strong>transforms unstructured news articles into market insights</strong> for equity analysts. Built with <strong>LangChain</strong> and <strong>OpenAI's API</strong>, it implements a <em>Retrieval-Augmented Generation (RAG)</em> pipeline that ingests articles via <strong>Newspaper3k</strong> and processes multiple news sources simultaneously. The system uses <strong>FAISS vector search</strong> for semantic document retrieval and employs prompt engineering to extract relevant quotes with source attribution.
 </div>
 
-  <div style="margin-top: 15px;">
-  The application is deployed on <strong>AWS serverless infrastructure</strong> using a fully automated CI/CD pipeline built with <strong>Terraform</strong>. When code changes are made locally, the system automatically packages the application, triggers <strong>AWS CodePipeline</strong> to build Docker containers via <strong>CodeBuild</strong>, stores images in <strong>Amazon ECR</strong>, and deploys to <strong>ECS Fargate</strong> clusters across availability zones. The entire application is globally distributed through <strong>CloudFront CDN</strong>, ensuring low-latency access while automatically scaling based on demand.
-  </div>
-</div>
-
 ## [PremierPredict: Football Match Predictor App](https://github.com/ghj95/foot_forecast/blob/main/epl_predictor.ipynb){:target="_blank"}
 
 <div style="position: relative; overflow: hidden; margin-bottom: 20px;">
