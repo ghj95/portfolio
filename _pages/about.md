@@ -93,6 +93,7 @@ redirect_from:
   This financial research tool <strong>transforms unstructured news articles into market insights</strong> for equity analysts. Built with <strong>LangChain</strong> and <strong>OpenAI's API</strong>, it implements a <em>Retrieval-Augmented Generation (RAG)</em> pipeline that ingests articles via <strong>Newspaper3k</strong> and processes multiple news sources simultaneously. The system uses <strong>FAISS vector search</strong> for semantic document retrieval and employs prompt engineering to extract relevant quotes with source attribution.
 </div>
 
+
 ## [PremierPredict: Football Match Predictor App](https://github.com/ghj95/foot_forecast/blob/main/epl_predictor.ipynb){:target="_blank"}
 
 <div style="position: relative; overflow: hidden; margin-bottom: 20px;">
