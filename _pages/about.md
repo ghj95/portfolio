@@ -114,7 +114,7 @@ redirect_from:
 </div>
 
 
-## [Frozen Lake Reinforcement Learning Agent](https://github.com/ghj95/frozen_lake_q){:target="_blank"}
+<!-- ## [Frozen Lake Reinforcement Learning Agent](https://github.com/ghj95/frozen_lake_q){:target="_blank"}
 
 <div style="position: relative; overflow: hidden; margin-bottom: 20px;">
   <div style="float: right; width: 300px; text-align: center; margin-left: 25px;">
@@ -129,7 +129,7 @@ redirect_from:
   <div>
     This project <strong>implements Q-learning to solve the Frozen Lake environment</strong> from <strong>OpenAI Gymnasium</strong>, illustrating core reinforcement learning principles. Using a table-based approach with <strong>NumPy</strong>, the agent learns optimal paths through a grid to reach the goal while avoiding holes. The implementation integrates a <strong>dynamic learning rate</strong> and an <strong>epsilon-greedy strategy</strong> that gradually shifts from exploration to exploitation, highlighting the contrast between deterministic and stochastic environments.
   </div>
-</div>
+</div> -->
 
 ## [Flappy Bird Reinforcement Learning Agent](https://github.com/ghj95/dqn_bird/tree/main){:target="_blank"} 
   
