@@ -3,14 +3,14 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
+      <nav id="site-nav" class="greedy-nav" style="display: flex; align-items: center;">
         <button><div class="navicon"></div></button>
-        <ul class="visible-links">
+        <ul class="visible-links" style="display: flex; align-items: center;">
           <li class="masthead__menu-item masthead__menu-item--lg">
-            <a href="{{ base_path }}/">
+            <a href="{{ base_path }}/" style="border-bottom: none;">
               <img src="{{ base_path }}/images/ghj.gif" 
                    alt="{{ site.title }}" 
-                   style="height: 3.5rem; width: auto; vertical-align: bottom; margin-top: -10px;">
+                   style="height: 180px; width: auto; max-width: none; vertical-align: middle; display: block; margin: 10px 0;">
             </a>
           </li>
           {% for link in site.data.navigation.main %}
@@ -19,7 +19,9 @@
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item" style="font-size: 1.25rem;">
+              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            </li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
