@@ -8,8 +8,8 @@ main:
   - title: "Blog Posts"
     url: /blog/
   
-  # - title: "Portfolio"
-  #   url: /blog-posts/
+  - title: "Portfolio"
+    url: /blog-posts/
 
   # - title: "CV"
   #   url: /files/Gabriel_Hardy_Joseph.pdf
